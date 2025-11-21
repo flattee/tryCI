@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "Hello world sekai"
-        echo "こんにちは世界"
+          echo "Hello world sekai"
+          echo "Hello Second line"
       - uses: actions/checkout@v4
